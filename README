@@ -12,3 +12,5 @@ The way I have plot.py set up, to run a graph you type in the command line:
 'python plot.py raw-data/#(material you want to run here).raw #material you want to run'
 
 The program will now display a Young's Modulus and a line of best fit for the graphs
+
+I am using the [9:-4] for the title becasue it will grab the name of the material only
