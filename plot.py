@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 filename = sys.argv[1]
+Material = sys.argv[2]
 #filename = "raw-data/glass.raw" 
 #filename = "raw-data/aluminum.raw"  
 #filename = "raw-data/steel.raw"  
@@ -31,7 +32,7 @@ strain = data[:,7]
 plt.plot(strain, stress, color='k', linestyle='-', label='square')
 plt.xlabel('Strain(%)') # adds x axis label 
 plt.ylabel('Stress (Mpa)') # adds y axis label 
-plt.title('Stress vs Strain Data of ')#+ Material) # adds the title for the graph 
+plt.title('Stress vs Strain Data of '+ Material) # adds the title for the graph 
 plt.grid() # adds grid 
 plt.show()
 
