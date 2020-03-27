@@ -2,20 +2,20 @@ This file is here to give some structure on how to run the code and some name
 choices for the materials
 -----------------------------------------------------------------------------
 I created the file on my local drive as new-p1 becasue I deleated the raw-data 
-folder on p1-start
+folder on p1-start (this caused a lot of set back but I recovered a lot from github itself)
 
-In raw-data/ all of the files were re-named to be easier to type such as 'steel' rather than the complex long name
+In raw-data/ all of the files were re-named to be easier to type such as 'steel' rather than the complex long name (this made it a lot easier to call on the data)
 
 Some of the data I renamed to be "material name"-sp-#(1, 2, or 3) to specify the specimen we are talking about (hence the 'sp')
 
 The way I have plot.py set up, to run a graph you type in the command line:
-'python plot.py raw-data/#(material you want to run here).raw #material you want to run'
+'python plot.py raw-data/#(material you want to run here).raw
 
 The program will now display a Young's Modulus and a line of best fit for the graphs
 
 I am using the [9:-4] for the title becasue it will grab the name of the material only
 
-I had to trouble shoot a lot with the graph and linear fit becasue it was printing two graphs so I had to move the code used to generate the line so it goes onto the same graph
+I had to troubleshoot a lot with the graph and linear fit becasue it was printing two graphs so I had to move the code used to generate the line so it goes onto the same graph
 
 There were a lot of challenges in this project but I felt prepared for them with the help of my class mates and the lessons from before. I felt this was a good test of skills and I'm happy on how I progressed through it hitting many chalenges along the way!
 
