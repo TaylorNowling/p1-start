@@ -3,11 +3,6 @@ import numpy as np
 import sys
 filename = sys.argv[1]
 Material = filename[9:-4]
-#filename = "raw-data/glass.raw" 
-#filename = "raw-data/aluminum.raw"  
-#filename = "raw-data/steel.raw"  
-#filename = "raw-data/tungsten.raw"  
-#filename = "raw-data/ultem.raw"
 
 print(sys.argv)  # Stores ARG1 in filename, as in: $ python plot.py ARG1 ARG2 
 data = np.loadtxt(filename,skiprows=32,delimiter=',')
