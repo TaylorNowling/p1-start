@@ -51,9 +51,9 @@ m1,b1=np.polyfit(Strain,Stress,1)
 Reg=b1+m1*Strain
 linearf=np.poly1d(m1,b1)
 plt.plot(Strain,Reg,"g--", linestyle='dashed',label="Linear fit")
-
+plt.savefig(filename+ '.pdf')
+print(" Modulus of Elasticicty : " + str(m1) + str(' Mpa'))
 plt.show()
-print("The Young's Modulus of " + filename + ' is ' + m1 + ' MPa')
 ## Part 4
 # Modify your code to save your plots to a file and see if you can generate
 # plots and Young's moduli for all of the cleaned up files in your data 
