@@ -1,0 +1,15 @@
+This file is here to give some structure on how to run the code and some name 
+choices for the materials
+-----------------------------------------------------------------------------
+I created the file on my local drive as new-p1 becasue I deleated the raw-data 
+folder on p1-start
+
+In raw-data/ all of the files were re-named to be easier to type such as 'steel' rather than the complex long name
+
+Some of the data I renamed to be "material name"-sp-#(1, 2, or 3) to specify the specimen we are talking about (hence the 'sp')
+
+The way I have plot.py set up, to run a graph you type in the command line:
+'python plot.py raw-data/#(material you want to run here).raw #material you 
+								want to run'
+
+
