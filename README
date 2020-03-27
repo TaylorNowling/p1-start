@@ -9,7 +9,6 @@ In raw-data/ all of the files were re-named to be easier to type such as 'steel'
 Some of the data I renamed to be "material name"-sp-#(1, 2, or 3) to specify the specimen we are talking about (hence the 'sp')
 
 The way I have plot.py set up, to run a graph you type in the command line:
-'python plot.py raw-data/#(material you want to run here).raw #material you 
-								want to run'
+'python plot.py raw-data/#(material you want to run here).raw #material you want to run'
 
-
+The program will now display a Young's Modulus and a line of best fit for the graphs
