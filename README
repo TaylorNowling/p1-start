@@ -16,3 +16,5 @@ The program will now display a Young's Modulus and a line of best fit for the gr
 I am using the [9:-4] for the title becasue it will grab the name of the material only
 
 I had to trouble shoot a lot with the graph and linear fit becasue it was printing two graphs so I had to move the code used to generate the line so it goes onto the same graph
+
+There were a lot of challenges in this project but I felt prepared for them with the help of my class mates and the lessons from before. I felt this was a good test of skills and I'm happy on how I progressed through it hitting many chalenges along the way!
